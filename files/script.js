@@ -42,17 +42,17 @@ function playme(nclass, imclass, p1class, p2class, p3class, p4class, ctnclass, h
         if (aclass == 'expérience') {
             var iframe = document.querySelector('.'+iclass);
             iframe.style.display = "block";
-            iframe.src = "Experience.html";
+            iframe.src = "./files/Experience.html";
         }
         else if (aclass == 'compétences') {
             var iframe = document.querySelector('.'+iclass);
             iframe.style.display = "block";
-            iframe.src = "Competence.html";
+            iframe.src = "./files/Competence.html";
         }
         else if (aclass == 'formation') {
             var iframe = document.querySelector('.'+iclass);
             iframe.style.display = "block";
-            iframe.src = "Formation.html";
+            iframe.src = "./files/Formation.html";
         }
 }
 

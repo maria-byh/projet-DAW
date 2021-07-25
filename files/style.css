@@ -133,7 +133,7 @@ a:active {
 
 h1 {
     padding: 10px;
-    background-image: url('photos/id-card-regular.svg');
+    background-image: url('./photos/id-card-regular.svg');
     background-repeat: no-repeat;
     font-family: pacifico;
     font-size: xx-large;
@@ -162,7 +162,7 @@ h2, .lk {
 section {
     width: 100%;
     height: 500px;
-    background-image: url('photos/bg-6 1.svg');
+    background-image: url('./photos/bg-6 1.svg');
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -210,21 +210,21 @@ hr {
 }
 
 .expér {
-    background-image: url('photos/bg-16 1.svg');
+    background-image: url('./photos/bg-16 1.svg');
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: 85% bottom;
 }
 
 .compét {
-    background-image: url('photos/bg-2 1.svg');
+    background-image: url('./photos/bg-2 1.svg');
     background-repeat: no-repeat;
     background-size: 30%;
     background-position: 85% 60%;
 }
 
 .format {
-    background-image: url('photos/bg-18 1.svg');
+    background-image: url('./photos/bg-18 1.svg');
     background-repeat: no-repeat;
     background-size: 23%;
     background-position: 85% 65%;
