@@ -1,0 +1,235 @@
+/****tous les fichiers html***********************/
+@font-face {
+    font-family: ruluko;
+    src: url('./font/Ruluko-Regular.woff');
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url('./font/Pacifico-Regular.woff');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ruluko;
+}
+
+
+/*****main page**********************************/
+.main {
+    display: flex;
+}
+
+/*****la partie gauche nav*****/
+nav {
+    padding: 5% 2%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    z-index: 10;
+    background-color: white;
+}
+
+nav:hover {
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.photo:hover {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 5;
+    transition: all 2s;
+}
+
+/*le code css permettra d'agrandir la photo au passage de la sourie en dessus*/
+.information {
+    height: 50%;
+    padding: 20% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 100px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-right: 10px;
+    color: #FF75A0;
+}
+
+.fas:hover{
+    color: #262A53;
+    transition: color 0.5s;
+}
+
+.p {
+    display: block;
+}
+
+/*****la partie à droite du contenu*****/    
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25%;
+    width: 75%;
+}
+
+.down {
+    width: 104.7%;
+    position: absolute;
+    top: 140px;
+    left: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    /*---la partie header-----*/
+.main-header {
+    padding: 0 70px 0 50px;
+    height: 140px;
+    width: 75%;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 4px;
+    background-color: white;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration-line: none;
+    font-family: pacifico;
+    color: #262A53;
+}
+
+a:active {
+    color: #262A53;
+}
+
+h1 {
+    padding: 10px;
+    background-image: url('photos/id-card-regular.svg');
+    background-repeat: no-repeat;
+    font-family: pacifico;
+    font-size: xx-large;
+    color: #262A53;
+}
+
+aside {
+    padding-top: 6px;
+}
+
+h2, h3, .lk {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2, .lk {
+    color: #628395;
+}
+
+.lk {
+    text-decoration-line: none;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+    /*-----la partie section-----*/
+section {
+    width: 100%;
+    height: 500px;
+    background-image: url('photos/bg-6 1.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    position: relative;
+}
+
+.iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+    /*-----la partie footer-----*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1em;
+    width: 100%;
+    background-color: #262A53;
+    color: white;
+    
+}
+
+ul {
+    list-style-type: none;
+    line-height: 4;
+}
+
+.ul {
+    line-height: 2;
+}
+
+/*****les trois fichies externes****************/
+h2, ul {
+    padding: 40px 10%;
+}
+
+hr {
+    width: 100vw;
+}
+
+.expér, .compét, .format {
+    background-color: white;
+}
+
+.expér {
+    background-image: url('photos/bg-16 1.svg');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 85% bottom;
+}
+
+.compét {
+    background-image: url('photos/bg-2 1.svg');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 85% 60%;
+}
+
+.format {
+    background-image: url('photos/bg-18 1.svg');
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 85% 65%;
+}
+
+
+
+
