@@ -1,1 +1,62 @@
-# projet-DAW
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=".\files\fontawesome-free-5.15.3-web\css\all.css" rel="stylesheet">
+    <link rel="stylesheet" href=".\files\style.css">
+    <title>my portfolio</title>
+</head>
+<body class="main">
+<!------------la partie gauche nav------------>
+    <nav class="nav">
+        <img class="photo" src=".\files\photos\photo.jpg" alt="img">
+        <div class="information">
+            <div class="li"><i class="fas fa-user-circle"></i><p class="a">Maria Bouyahiaoui</p></div>
+            <div class="li"><i class="fas fa-envelope"></i><p class="b">bouyahiaoui.maria@gmail.com</p></div>
+            <div class="li"><i class="fas fa-phone"></i><p class="c">0542948348</p></div>
+            <div class="li"><i class="fas fa-map-marker-alt"></i><p class="d">10 rue des écoles boudouaou, Boumerdes</p></div>
+        </div>
+    </nav>
+<!------------la partie droite du contenu-------->
+    <div class="content">
+    <!--------header----------------------------->
+        <header class="main-header">
+            <h1><a href="main.html">Curriculum Vitae</a></h1>
+            <aside>
+                <p>Bienvenue sur mon CV, je suis une personne passionnée par les nouvelles technologies, <br> la programmation et les beaux arts. <br> 
+                pour plus d'information sur moi clickez sur un des liens en dessous!</p>   
+                <menu>
+                    <a class="lk expérience" href="#" onclick="playme('nav', 'photo', 'a', 'b', 'c', 'd', 'content', 'main-header', 'expérience', 'iframe')">Mon expérience</a>
+                    <a class="lk compétences" href="#" onclick="playme('nav', 'photo', 'a', 'b', 'c', 'd', 'content', 'main-header', 'compétences', 'iframe')">Mes compétences</a>
+                    <a class="lk formation" href="#" onclick="playme('nav', 'photo', 'a', 'b', 'c', 'd', 'content', 'main-header', 'formation', 'iframe')">Ma formation</a>
+                </menu>
+            </aside>
+        </header>
+        <div class="down">
+    <!--------la partie section----------------->
+            <section>
+                <iframe class="iframe" scrolling="no"></iframe>
+            </section>
+    <!--------la partie footer------------------>
+            <footer>
+                <ul class="ul">
+                    <h3>Langues :</h3>
+                    <li>Anglais</li>
+                    <li>Français</li>
+                    <li>Arabe</li>
+                </ul>
+                <ul class="ul">
+                    <h3>Les centres d’intérêt :</h3>
+                    <li>Programmation</li>
+                    <li>Apprendre des nouvelles choses en technologie</li>
+                    <li>La lecture</li>
+                    <li>Apprendre des langues</li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src=".\files\script.js"></script>
+</body>
+</html>
